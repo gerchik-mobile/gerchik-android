@@ -89,10 +89,6 @@ dependencies {
     implementation appDependencies.navigationKtx
     implementation appDependencies.navigationFragmentKtx
 
-    implementation appDependencies.ankoCore
-    implementation appDependencies.ankoDesign
-    implementation appDependencies.ankoCardView
-
     implementation appDependencies.appCompat
     implementation appDependencies.constraintLayout
     implementation appDependencies.viewPager
