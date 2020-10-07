@@ -1,0 +1,37 @@
+apply from: 'dependencies.gradle'
+
+buildscript {
+    ext {
+        kotlinVersion = '1.4.0'
+        gradleVersion = '4.0.1'
+    }
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    androidCompileSdkVersion = 29
+    androidBuildToolsVersion = '29.0.2'
+    minSdkVersion = 23
+    targetSdkVersion = 29
+}
