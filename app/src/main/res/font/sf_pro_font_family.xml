@@ -14,37 +14,37 @@
         900 Ultra Bold -->
 
     <font
-        android:font="@font/sfuitext_regular"
+        android:font="@font/sf_pro_text_regular"
         android:fontStyle="normal"
         android:fontWeight="400"
-        app:font="@font/sfuitext_regular"
+        app:font="@font/sf_pro_text_regular"
         app:fontStyle="normal"
         app:fontWeight="400"
         tools:targetApi="o" />
 
     <font
-        android:font="@font/sfuitext_medium"
+        android:font="@font/sf_pro_text_medium"
         android:fontStyle="normal"
         android:fontWeight="500"
-        app:font="@font/sfuitext_medium"
+        app:font="@font/sf_pro_text_medium"
         app:fontStyle="normal"
         app:fontWeight="500"
         tools:targetApi="o" />
 
     <font
-        android:font="@font/sfuitext_semibold"
+        android:font="@font/sf_pro_text_semibold"
         android:fontStyle="normal"
         android:fontWeight="600"
-        app:font="@font/sfuitext_semibold"
+        app:font="@font/sf_pro_text_semibold"
         app:fontStyle="normal"
         app:fontWeight="600"
         tools:targetApi="o" />
 
     <font
-        android:font="@font/sfuitext_bold"
+        android:font="@font/sf_pro_text_bold"
         android:fontStyle="normal"
         android:fontWeight="700"
-        app:font="@font/sfuitext_bold"
+        app:font="@font/sf_pro_text_bold"
         app:fontStyle="normal"
         app:fontWeight="700"
         tools:targetApi="o" />

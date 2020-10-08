@@ -9,245 +9,362 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
 
-        <item name="android:fontFamily">@font/sfuitext_font_family</item>
-        <item name="fontFamily">@font/sfuitext_font_family</item>
+        <item name="android:fontFamily">@font/sf_pro_font_family</item>
+        <item name="fontFamily">@font/sf_pro_font_family</item>
 
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
-     <style name="AppTheme.TextAppearance">
+    <style name="AppTheme.TextAppearance">
         <item name="android:includeFontPadding">false</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Primary">
-        <item name="android:textColor">@color/primaryTextColor</item>
+    <style name="AppTheme.TextAppearance.DarkBlue">
+        <item name="android:textColor">@color/darkBlueTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Secondary">
-        <item name="android:textColor">@color/secondaryTextColor</item>
+    <style name="AppTheme.TextAppearance.Blue">
+        <item name="android:textColor">@color/blueTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Thirdly">
-        <item name="android:textColor">@color/thirdlyTextColor</item>
+    <style name="AppTheme.TextAppearance.SmokyBlue">
+        <item name="android:textColor">@color/smokyBlueTextColor</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightBlue">
+        <item name="android:textColor">@color/lightBlueTextColor</item>
     </style>
 
     <style name="AppTheme.TextAppearance.White">
         <item name="android:textColor">@color/whiteTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreyPrimary">
-        <item name="android:textColor">@color/greyPrimaryTextColor</item>
+    <style name="AppTheme.TextAppearance.LightPurple">
+        <item name="android:textColor">@color/lightPurpleTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreySecondary">
-        <item name="android:textColor">@color/greySecondaryTextColor</item>
+    <style name="AppTheme.TextAppearance.Red">
+        <item name="android:textColor">@color/redTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreyTransparent">
-        <item name="android:textColor">@color/greyTransparentTextColor</item>
+    <style name="AppTheme.TextAppearance.OrangeRed">
+        <item name="android:textColor">@color/orangeRedTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.PrimaryBlue">
-        <item name="android:textColor">@color/primaryBlueTextColor</item>
+    <style name="AppTheme.TextAppearance.Green">
+        <item name="android:textColor">@color/greenTextColor</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.SecondaryBlue">
-        <item name="android:textColor">@color/secondaryBlueTextColor</item>
-    </style>
+    <!-- DarkBlue   -->
 
-    <style name="AppTheme.TextAppearance.Peach">
-        <item name="android:textColor">@color/peachTextColor</item>
-    </style>
-
-    <!-- Primary   -->
-
-    <style name="AppTheme.TextAppearance.Primary.XSmall">
-        <item name="android:textSize">@dimen/textSizeXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Primary.Small">
+    <style name="AppTheme.TextAppearance.DarkBlue.SmallSize">
         <item name="android:textSize">@dimen/textSizeSmall</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Primary.Small.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Primary.Small.BoldFont">
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Primary.Medium">
+    <style name="AppTheme.TextAppearance.DarkBlue.MediumSize">
         <item name="android:textSize">@dimen/textSizeMedium</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Primary.Medium.SemiBoldFont">
-        <item name="fontFamily">@font/sfuitext_semibold</item>
-        <item name="android:fontFamily">@font/sfuitext_semibold</item>
+    <style name="AppTheme.TextAppearance.DarkBlue.MediumSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Primary.Large">
-        <item name="android:textSize">@dimen/textSizeLarge</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Primary.Large.BoldFont">
+    <style name="AppTheme.TextAppearance.DarkBlue.MediumSize.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Primary.XLarge">
+    <style name="AppTheme.TextAppearance.DarkBlue.XLargeSize">
         <item name="android:textSize">@dimen/textSizeXLarge</item>
     </style>
 
-    <!-- Secondary -->
-
-    <style name="AppTheme.TextAppearance.Secondary.XXSmall">
-        <item name="android:textSize">@dimen/textSizeXXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Secondary.XSmall">
-        <item name="android:textSize">@dimen/textSizeXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Secondary.Small">
-        <item name="android:textSize">@dimen/textSizeSmall</item>
-    </style>
-
-    <!--  Thirdly  -->
-
-    <style name="AppTheme.TextAppearance.Thirdly.XSmall">
-        <item name="android:textSize">@dimen/textSizeXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.Thirdly.XSmall.BoldFont">
+    <style name="AppTheme.TextAppearance.DarkBlue.XLargeSize.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Thirdly.XSmall.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
+    <!-- Blue -->
+
+    <style name="AppTheme.TextAppearance.Blue.XSmallSize">
+        <item name="android:textSize">@dimen/textSizeXSmall</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.Thirdly.Small">
+    <style name="AppTheme.TextAppearance.Blue.SmallSize">
         <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.SmallSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.MediumSize">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.MediumSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.MediumSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.LargeSize">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.LargeSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.XLargeSize">
+        <item name="android:textSize">@dimen/textSizeXLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.XLargeSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Blue.XLargeSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <!--  SmokyBlue  -->
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.SmallSize">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.SmallSize.Bold">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.SmallSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.SmallSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.MediumSize">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.MediumSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.MediumSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.LargeSize">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.LargeSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.XLargeSize">
+        <item name="android:textSize">@dimen/textSizeXLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.XLargeSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SmokyBlue.XLargeSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--  LightBlue  -->
+
+    <style name="AppTheme.TextAppearance.LightBlue.XSmallSize">
+        <item name="android:textSize">@dimen/textSizeXSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightBlue.XSmallSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightBlue.MediumSize">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightBlue.MediumSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
     </style>
 
     <!--  White  -->
 
-    <style name="AppTheme.TextAppearance.White.Small">
-        <item name="android:textSize">@dimen/textSizeSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.White.Small.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
-    </style>
-
-    <!--  GreyPrimary  -->
-
-    <style name="AppTheme.TextAppearance.GreyPrimary.XXSmall">
-        <item name="android:textSize">@dimen/textSizeXXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.GreyPrimary.XSmall">
+    <style name="AppTheme.TextAppearance.White.XSmallSize">
         <item name="android:textSize">@dimen/textSizeXSmall</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreyPrimary.Small">
+    <style name="AppTheme.TextAppearance.White.SmallSize">
         <item name="android:textSize">@dimen/textSizeSmall</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreyPrimary.Small.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
+    <style name="AppTheme.TextAppearance.White.SmallSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreyPrimary.Medium">
+    <style name="AppTheme.TextAppearance.White.SmallSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.White.MediumSize">
         <item name="android:textSize">@dimen/textSizeMedium</item>
     </style>
 
-    <!--  GreySecondary  -->
-
-    <style name="AppTheme.TextAppearance.GreySecondary.Small">
-        <item name="android:textSize">@dimen/textSizeSmall</item>
+    <style name="AppTheme.TextAppearance.White.MediumSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
     </style>
 
-    <!--  GreyTransparent  -->
-
-    <style name="AppTheme.TextAppearance.GreyTransparent.Small">
-        <item name="android:textSize">@dimen/textSizeSmall</item>
+    <style name="AppTheme.TextAppearance.White.LargeSize">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.GreyTransparent.Small.BoldFont">
+    <style name="AppTheme.TextAppearance.White.LargeSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.White.LargeSize.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <!--  PrimaryBluePrimary  -->
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XXSmall">
-        <item name="android:textSize">@dimen/textSizeXXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XXSmall.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XSmall">
-        <item name="android:textSize">@dimen/textSizeXSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XSmall.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XSmall.BoldFont">
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.Small">
-        <item name="android:textSize">@dimen/textSizeSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.Small.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XXLarge">
-        <item name="android:textSize">@dimen/textSizeXXLarge</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.PrimaryBlue.XXLarge.SemiBoldFont">
-        <item name="fontFamily">@font/sfuitext_semibold</item>
-        <item name="android:fontFamily">@font/sfuitext_semibold </item>
-    </style>
-
-    <!--  SecondaryBlue  -->
-
-    <style name="AppTheme.TextAppearance.SecondaryBlue.Small">
-        <item name="android:textSize">@dimen/textSizeSmall</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.SecondaryBlue.Small.MediumFont">
-        <item name="fontFamily">@font/sfuitext_medium</item>
-        <item name="android:fontFamily">@font/sfuitext_medium</item>
-    </style>
-
-    <style name="AppTheme.TextAppearance.SecondaryBlue.Xlarge">
+    <style name="AppTheme.TextAppearance.White.XLargeSize">
         <item name="android:textSize">@dimen/textSizeXLarge</item>
     </style>
 
-    <style name="AppTheme.TextAppearance.SecondaryBlue.Xlarge.SemiBoldFont">
-        <item name="fontFamily">@font/sfuitext_semibold</item>
-        <item name="android:fontFamily">@font/sfuitext_semibold</item>
+    <style name="AppTheme.TextAppearance.White.XLargeSize.Bold">
+        <item name="android:textStyle">bold</item>
     </style>
 
-    <!--  PeachPrimary  -->
+    <!--  LightPurple  -->
 
-    <style name="AppTheme.TextAppearance.Peach.Small">
+    <style name="AppTheme.TextAppearance.LightPurple.XSmallSize">
+        <item name="android:textSize">@dimen/textSizeXSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.XSmallSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.XSmallSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.SmallSize">
         <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.SmallSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.MediumSize">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.MediumSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.LightPurple.LargeSize">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <!--  Red  -->
+
+    <style name="AppTheme.TextAppearance.Red.XSmallSize">
+        <item name="android:textSize">@dimen/textSizeXSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.XSmallSize.Medium">
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.MediumSize">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.MediumSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.LargeSize">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.LargeSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.LargeSize.SemiBold">
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.XLargeSize">
+        <item name="android:textSize">@dimen/textSizeXLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Red.XLargeSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--  OrangeRed  -->
+
+    <style name="AppTheme.TextAppearance.OrangeRed.SmallSize">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.OrangeRed.SmallSize.BoldFont">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.OrangeRed.XLargeSize">
+        <item name="android:textSize">@dimen/textSizeXLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.OrangeRed.XLargeSize.BoldFont">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--  Green  -->
+
+    <style name="AppTheme.TextAppearance.Green.SmallSize">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Green.SmallSize.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Green.XLargeSize">
+        <item name="android:textSize">@dimen/textSizeXLarge</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Green.XLargeSize.Bold">
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

@@ -5,16 +5,15 @@
     <color name="colorAccent">#E5EDFF</color>
 
     <!--Text colors-->
-    <color name="primaryTextColor">#333333</color>
-    <color name="secondaryTextColor">#BBC5D6</color>
-    <color name="thirdlyTextColor">#8B99B1</color>
+    <color name="darkBlueTextColor">#171C8F</color>
+    <color name="blueTextColor">#343ADB</color>
+    <color name="smokyBlueTextColor">#020449</color>
+    <color name="lightBlueTextColor">#589FFF</color>
+    <color name="lightPurpleTextColor">#9491CB</color>
+    <color name="redTextColor">#FB3640</color>
     <color name="whiteTextColor">#FFFFFF</color>
-    <color name="greyPrimaryTextColor">#6C727C</color>
-    <color name="greySecondaryTextColor">#ADB2C8</color>
-    <color name="greyTransparentTextColor">#DDDBDB</color>
-    <color name="primaryBlueTextColor">#589FFF</color>
-    <color name="secondaryBlueTextColor">#4285F4</color>
-    <color name="peachTextColor">#FFAE95</color>
+    <color name="orangeRedTextColor">#F85A3E</color>
+    <color name="greenTextColor">#23CE6B</color>
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
