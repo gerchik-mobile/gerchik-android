@@ -16,7 +16,7 @@ internal class GerchikApplication : Application() {
 
     private fun initServiceLocator() {
         startKoin {
-            androidLogger(level = Level.DEBUG)
+            androidLogger(level = Level.ERROR)
             androidContext(this@GerchikApplication)
             modules(*provideModules())
         }

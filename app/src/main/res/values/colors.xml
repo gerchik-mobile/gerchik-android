@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FAF9FF</color>
+    <color name="colorAccent">#E5EDFF</color>
+
+    <!--Text colors-->
+    <color name="primaryTextColor">#333333</color>
+    <color name="secondaryTextColor">#BBC5D6</color>
+    <color name="thirdlyTextColor">#8B99B1</color>
+    <color name="whiteTextColor">#FFFFFF</color>
+    <color name="greyPrimaryTextColor">#6C727C</color>
+    <color name="greySecondaryTextColor">#ADB2C8</color>
+    <color name="greyTransparentTextColor">#DDDBDB</color>
+    <color name="primaryBlueTextColor">#589FFF</color>
+    <color name="secondaryBlueTextColor">#4285F4</color>
+    <color name="peachTextColor">#FFAE95</color>
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
