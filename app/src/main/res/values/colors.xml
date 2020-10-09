@@ -19,6 +19,8 @@
     
     <!--  App Colors  -->
     <color name="blueColor">#343ADB</color>
+    <color name="smokyBlueColor">#020449</color>
+    <color name="lightPurpleColor">#9491CB</color>
     <color name="redColor">#FB3640</color>
     <color name="orangeRedColor">#F85A3E</color>
     <color name="whiteColor">#FFFFFF</color>

@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -8,6 +8,14 @@
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:textColorHint">@color/lightPurpleTextColor</item>
+
+        <item name="colorControlNormal">@color/lightPurpleColor</item>
+        <item name="colorControlActivated">@color/blueColor</item>
+        <item name="colorControlHighlight">@color/blueColor</item>
+
+        <item name="editTextStyle">@style/AppTheme.EditText</item>
 
         <item name="android:fontFamily">@font/sf_pro_font_family</item>
         <item name="fontFamily">@font/sf_pro_font_family</item>
@@ -445,6 +453,38 @@
         <item name="paddingEnd">30dp</item>
         <item name="android:paddingStart">10dp</item>
         <item name="android:paddingEnd">30dp</item>
+    </style>
+
+    <!-- TextInputLayout -->
+
+    <style name="AppTheme.TextAppearance.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/lightPurpleTextColor</item>
+        <item name="android:textSize">@dimen/textSizeXSmall</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/AppTheme.TextAppearance.TextInputLayout</item>
+        <item name="android:background">@drawable/text_input_underline_selector</item>
+    </style>
+
+    <!-- EditText -->
+
+    <style name="AppTheme.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/smokyBlueTextColor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:textCursorDrawable">@drawable/edit_text_cursor_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="paddingStart">8dp</item>
+        <item name="paddingEnd">0dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColorHint">@color/lightPurpleTextColor</item>
+        <item name="hintTextColor">@color/lightPurpleTextColor</item>
     </style>
 
 </resources>
