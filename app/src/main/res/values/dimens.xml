@@ -11,5 +11,6 @@
     <!-- UI Elements Sizes   -->
     <dimen name="defaultButtonHeightSize">44dp</dimen>
     <dimen name="smallButtonHeightSize">36dp</dimen>
+    <dimen name="mediumButtonHeightSize">36dp</dimen>
 
 </resources>

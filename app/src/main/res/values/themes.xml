@@ -413,4 +413,38 @@
         <item name="android:paddingEnd">16dp</item>
     </style>
 
+    <style name="AppTheme.WhiteButton">
+        <item name="android:background">@drawable/white_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance</item>
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="fontFamily">@font/sf_pro_text_regular</item>
+        <item name="android:fontFamily">@font/sf_pro_text_regular</item>
+        <item name="android:layout_height">@dimen/mediumButtonHeightSize</item>
+    </style>
+
+    <style name="AppTheme.WhiteButton.Google">
+        <item name="android:text">@string/google</item>
+        <item name="drawableStartCompat">@drawable/ic_google</item>
+        <item name="android:drawableStart">@drawable/ic_google</item>
+        <item name="android:drawablePadding">14dp</item>
+        <item name="paddingStart">10dp</item>
+        <item name="paddingEnd">46dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">46dp</item>
+    </style>
+
+    <style name="AppTheme.WhiteButton.Facebook">
+        <item name="android:text">@string/facebook</item>
+        <item name="drawableStartCompat">@drawable/ic_facebook</item>
+        <item name="android:drawableStart">@drawable/ic_facebook</item>
+        <item name="android:drawablePadding">14dp</item>
+        <item name="paddingStart">10dp</item>
+        <item name="paddingEnd">30dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">30dp</item>
+    </style>
+
 </resources>
