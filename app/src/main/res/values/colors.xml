@@ -16,6 +16,11 @@
     <color name="greenTextColor">#23CE6B</color>
 
     <color name="darkBlueBackgroundColor">#020646</color>
+    
+    <!--  App Colors  -->
+    <color name="blueColor">#343ADB</color>
+    <color name="redColor">#FB3640</color>
+    <color name="orangeRedColor">#F85A3E</color>
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

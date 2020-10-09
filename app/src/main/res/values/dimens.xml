@@ -8,4 +8,8 @@
     <dimen name="textSizeLarge">16sp</dimen>
     <dimen name="textSizeXLarge">24sp</dimen>
 
+    <!-- UI Elements Sizes   -->
+    <dimen name="defaultButtonHeightSize">44dp</dimen>
+    <dimen name="smallButtonHeightSize">36dp</dimen>
+
 </resources>

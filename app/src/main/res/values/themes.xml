@@ -341,6 +341,7 @@
     <style name="AppTheme.TextAppearance.OrangeRed.SmallSize.BoldFont">
         <item name="android:textStyle">bold</item>
     </style>
+
     <style name="AppTheme.TextAppearance.OrangeRed.XLargeSize">
         <item name="android:textSize">@dimen/textSizeXLarge</item>
     </style>
@@ -365,6 +366,51 @@
 
     <style name="AppTheme.TextAppearance.Green.XLargeSize.Bold">
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--  Buttons  -->
+    <style name="AppTheme.BlueButton">
+        <item name="android:background">@drawable/blue_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:layout_height">@dimen/defaultButtonHeightSize</item>
+    </style>
+
+    <style name="AppTheme.RedButton">
+        <item name="android:background">@drawable/red_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+        <item name="fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+        <item name="android:layout_height">@dimen/defaultButtonHeightSize</item>
+    </style>
+
+    <style name="AppTheme.OrangeButton">
+        <item name="android:background">@drawable/orange_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+        <item name="fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:layout_height">@dimen/smallButtonHeightSize</item>
+        <item name="android:text">@string/start</item>
+        <item name="drawableEndCompat">@drawable/ic_white_arrow</item>
+        <item name="android:drawableEnd">@drawable/ic_white_arrow</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="paddingStart">16dp</item>
+        <item name="paddingEnd">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
     </style>
 
 </resources>
