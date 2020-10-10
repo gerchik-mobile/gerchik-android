@@ -13,7 +13,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
 
-        <activity android:name=".presentation.pages.greeting.GreetingActivity"
+        <activity
+            android:name=".presentation.pages.greeting.GreetingActivity"
             android:screenOrientation="${screenOrientation}"
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
@@ -22,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".presentation.pages.register.RegisterActivity"
+            android:screenOrientation="${screenOrientation}" />
 
     </application>
 

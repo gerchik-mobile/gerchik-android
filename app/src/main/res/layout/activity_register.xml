@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.android.gerchik.presentation.pages.register.RegisterActivityViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EDEDF1"
+        tools:context=".presentation.pages.register.RegisterActivity">
+
+        <ImageView
+            android:id="@+id/logoAndName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/ic_logo_and_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/darkBlueTextColor"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            style="@style/AppTheme.TextAppearance.Blue.XLargeSize.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/register_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoAndName" />
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/registerFormFlow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            app:constraint_referenced_ids="nameContainer,emailContainer,passwordContainer"
+            app:flow_verticalBias="0"
+            app:flow_verticalGap="34dp"
+            app:flow_verticalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameContainer"
+            style="@style/AppTheme.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/AppTheme.EditText"
+                android:hint="@string/register_your_name"
+                android:inputType="text"
+                tools:ignore="Autofill" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailContainer"
+            style="@style/AppTheme.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/AppTheme.EditText"
+                android:hint="@string/register_email"
+                android:inputType="textWebEmailAddress"
+                tools:ignore="Autofill" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordContainer"
+            style="@style/AppTheme.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/AppTheme.EditText"
+                android:hint="@string/register_password"
+                android:inputType="textPassword"
+                tools:ignore="Autofill" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/register"
+            style="@style/AppTheme.Button.Red"
+            android:layout_width="0dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="@{v -> viewModel.onRegisterClick()}"
+            android:text="@string/greeting_register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerFormFlow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerByGoogle"
+            style="@style/AppTheme.WhiteButton.Google"
+            android:layout_width="140dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toStartOf="@+id/registerByFacebook"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/registerByFacebook"
+            style="@style/AppTheme.WhiteButton.Facebook"
+            android:layout_width="140dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/registerByGoogle"
+            app:layout_constraintTop_toTopOf="@+id/registerByGoogle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/haveAnAccount"
+            style="@style/AppTheme.TextAppearance.Blue.MediumSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:textColor="#333"
+            android:textColorHighlight="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

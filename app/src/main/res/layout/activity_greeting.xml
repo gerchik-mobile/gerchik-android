@@ -56,7 +56,10 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/register"
             style="@style/AppTheme.Button.Red"
+            android:layout_width="0dp"
+            android:layout_marginHorizontal="24dp"
             android:layout_marginTop="32dp"
+            android:onClick="@{v -> viewModel.onRegisterClick()}"
             android:text="@string/greeting_register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +68,10 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/login"
             style="@style/AppTheme.Button.Blue"
+            android:layout_width="0dp"
+            android:layout_marginHorizontal="24dp"
             android:layout_marginTop="32dp"
+            android:onClick="@{v -> viewModel.onLoginClick()}"
             android:text="@string/greeting_login"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

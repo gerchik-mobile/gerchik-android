@@ -11,6 +11,15 @@
     <string name="greeting_and">и</string>
     <string name="greeting_service_condition">Условия обслуживания</string>
 
+    <!-- Register -->
+    <string name="register_title">Регистрация</string>
+    <string name="register_your_name">Ваше имя</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Пароль</string>
+    <string name="register">@string/greeting_register</string>
+    <string name="register_already_have_an_account">Уже имеете аккаунт?</string>
+    <string name="register_login">@string/greeting_login</string>
+
     <string name="start">Начать</string>
     <string name="google">Google</string>
     <string name="facebook">Facebook</string>

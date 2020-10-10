@@ -454,7 +454,6 @@
     </style>
 
     <!-- TextInputLayout -->
-
     <style name="AppTheme.TextAppearance.TextInputLayout" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/lightPurpleTextColor</item>
         <item name="android:textSize">@dimen/textSizeXSmall</item>
@@ -466,8 +465,9 @@
     </style>
 
     <!-- EditText -->
-
     <style name="AppTheme.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/smokyBlueTextColor</item>
         <item name="android:maxLines">1</item>
         <item name="android:singleLine">true</item>
