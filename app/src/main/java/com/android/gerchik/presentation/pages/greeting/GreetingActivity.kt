@@ -16,6 +16,7 @@ class GreetingActivity : BaseActivity<ActivityGreetingBinding, GreetingActivityV
     override val viewModelClass = GreetingActivityViewModel::class
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         binding.viewModel = viewModel
 
