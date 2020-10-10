@@ -13,7 +13,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".presentation.pages.greeting.GreetingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

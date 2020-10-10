@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">gerchik-android</string>
 
+    <!-- Greeting -->
+    <string name="greeting_title">Приветствуем в онлайн - платформе обучения трейдингу!</string>
+    <string name="greeting_description">Вас ждут уроки в формате видео и статей, полезные “плюшки” и проверочные тесты. Чем больше баллов за тесты — тем круче Ваш ПРИЗ в конце курса!</string>
+    <string name="greeting_register">Зарегистрироваться</string>
+    <string name="greeting_login">Войти</string>
+    <string name="greeting_register_and_accept">Регистрируясь вы принимаете</string>
+    <string name="greeting_privacy_politic">Политику конфиденциальности</string>
+    <string name="greeting_and">и</string>
+    <string name="greeting_service_condition">Условия обслуживания</string>
 
     <string name="start">Начать</string>
     <string name="google">Google</string>
